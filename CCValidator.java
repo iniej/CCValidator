@@ -7,7 +7,10 @@ import java.awt.event.ActionListener;
 
 /**
  * Created by Iniebiyo Joshua on 3/23/2017.
+ *
  */
+
+// This program validates credit cards.
 public class CCValidator extends JFrame {
     private JPanel rootPanel;
     private JTextField creditCardNumberTextField;
@@ -61,7 +64,7 @@ public class CCValidator extends JFrame {
             System.out.println("Doesn't start with 4, invalid");
             return false;
         }
-
+        //Check to see if the number is 16 digits long.
         if (cc.length() != 16) {
             System.out.println("Credit card must be 16 numbers, invalid");
             return false;
