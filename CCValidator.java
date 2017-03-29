@@ -98,7 +98,5 @@ public class CCValidator extends JFrame {
     }
 
 
-    // TODO: place custom component creation code here
-
 
 }
